@@ -18,7 +18,7 @@ const Card = React.memo(({ movies }: { movies: Movie[] }) => {
           <div className="flex justify-between items-center">
             <p className="text-xs md:text-sm text-slate-500">{movie.release_date.split("-")[0]}</p>
             <div className="flex items-center gap-1">
-              <img src="/src/assets/icon/star.png" alt="star" />
+              <img src="/src/assets/icon/star.svg" alt="star" className="w-4 h-4" />
               <p className="text-xs md:text-sm text-slate-500">{movie.vote_average.toFixed(1)}</p>
             </div>
           </div>

@@ -60,8 +60,8 @@ export default function MovieDetails() {
           </p>
           <div className="text-sm text-slate-950 flex gap-2 mb-2">
             <span className="font-bold">Vote Average:</span>
-            <div className="flex items-center gap-1.5">
-              <img src="/src/assets/icon/star.png" alt="star" />
+            <div className="flex items-center gap-1">
+              <img src="/src/assets/icon/star.svg" alt="star" className="w-4 h-4" />
               <p className="text-sm text-slate-950">{movieData.vote_average.toFixed(1)}</p>
             </div>
           </div>
