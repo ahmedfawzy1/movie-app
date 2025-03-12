@@ -72,8 +72,8 @@ export default function MovieDetails() {
           </div>
           <button
             onClick={toggleWishlist}
-            className={`mt-4 px-4 py-2 text-sm font-medium border rounded-lg transition duration-500 ${
-              isWishlisted ? "bg-red-500 text-white" : "bg-gray-300 text-black"
+            className={`mt-4 px-4 py-2 text-sm font-medium rounded-lg transition duration-500 ${
+              isWishlisted ? "bg-red-500 text-white" : "bg-gray-100 text-black"
             }`}
           >
             {isWishlisted ? "Remove from Wishlist" : "Add to Wishlist"}
